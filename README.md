@@ -1,2 +1,2 @@
-Pi-Hole - Youtube Ads Blocker
-credit deividgdt / ytadsblocker and Pihole
+Pi-Hole block youtube Ads
+
