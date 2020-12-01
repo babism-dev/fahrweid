@@ -36,3 +36,5 @@ After the installation please open your browser goto http://your-IP-address/admi
 Read more about Pi-hole: https://github.com/pi-hole/pi-hole/#one-step-automated-install
 
 ### Install YT-ads block
+
+Soon!!!
