@@ -30,4 +30,4 @@ Ubuntu 20.x
 
 First change in the console the password with `# sudo pihole -a -p`
 
-After the installation please open your browser goto http://your-IP-address/admin use your new password.
+After the installation please open your browser goto http://your-IP-address/admin and use your new password.
