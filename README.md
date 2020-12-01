@@ -8,16 +8,16 @@ Download the script
 
 Change to directory
 
-# cd fahrweid
+* cd fahrweid
 
 Make the scripts executable
 
-# chmod a+x update-ubuntu.sh update-raspi.sh install-pihole-all-version.sh
+* chmod a+x update-ubuntu.sh update-raspi.sh install-pihole-all-version.sh
 
 If you are using Raspberry Pi or Ubuntu 20.x start with update-raspi.sh or update-ubuntu.sh
 
 Raspi
-# sudo ./update-raspi.sh
+* sudo ./update-raspi.sh
 
 Ubuntu 20.x
-# sudo ./update-ubuntu.sh
+* sudo ./update-ubuntu.sh
