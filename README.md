@@ -4,7 +4,7 @@ Installation
 
 Download the script
 
-# git clone https://github.com/babism-dev/fahrweid.git
+* git clone https://github.com/babism-dev/fahrweid.git
 
 Change to directory
 
