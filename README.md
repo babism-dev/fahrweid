@@ -1,5 +1,5 @@
 # Info : Pi-hole block youtube Ads (Beta Version 1.1.2)
-Prerequisite: Ubuntu 20.x (Server Edition) or Raspberry Pi OS Lite (Linux kernel 5.4.51) tested Version.
+Prerequisite: Ubuntu 20.x (Server Edition) or Raspberry Pi OS Lite (Linux kernel 5.4.51)
 Pi-hole Version (Pi-hole v5.2 Web Interface v5.2 FTL v5.3.1)
 
 # Installation
