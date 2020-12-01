@@ -1,4 +1,4 @@
-Pi-Hole block youtube Ads
+Pi-Hole with blocking youtube Ads (Beta Version 1.1.2)
 
 Installation
 
