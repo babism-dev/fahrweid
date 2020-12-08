@@ -28,7 +28,7 @@ Ubuntu 20.x
 
 `# curl -sSL https://install.pi-hole.net | bash`
 
-First change in the console the password with `# sudo pihole -a -p`
+Change in the console the password with `# sudo pihole -a -p`
 
 After the installation open your browser goto http://your-IP-address/admin and use your new password.
 
