@@ -62,4 +62,5 @@ now add this link under Group Management > Adlists. http://your-IP-address/ytblo
 The last Step is now to add a cron job
 
 `# sudo crontab -e`
+
 `# */60 * * * * /var/log/ytblock.sh`
