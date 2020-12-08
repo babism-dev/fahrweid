@@ -38,3 +38,28 @@ Read more about Pi-hole: https://github.com/pi-hole/pi-hole/#one-step-automated-
 ### Install YT-ads block
 
 Still testing update 08.12.2020
+
+Copy ytblock.sh from /fahrweid to /var/log/ then create a folder (ytblock) in /var/www/html/
+
+`# sudo mkdir /var/www/html/ytblock`
+
+Change to the folder /fahrweid (if your not there)
+
+`# sudo cp ytblock.sh /var/log/`
+
+Make the scripts executable
+
+`# chmod a+x /var/log/ytblock.sh`
+
+Run the script once
+
+`# sudo /var/log/ytblock.sh`
+
+Note: This script creates a yttemp.txt in /var/www/html/ytblock/ and the script are searching in the pihole log file for "r*sn-.*" these are from youtube generate domains for ads.
+
+now add this link under Group Management > Adlists. http://your-IP-address/ytblock/ytads.txt
+
+The last Step is now to add a cron job
+
+`# sudo crontab -e`
+`# */60 * * * * /var/log/ytblock.sh`
