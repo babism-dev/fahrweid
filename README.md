@@ -37,7 +37,7 @@ Read more about Pi-hole: https://github.com/pi-hole/pi-hole/#one-step-automated-
 
 ### Install YT-ads block
 
-Still testing update 08.12.2020
+Still testing update 08.12.2020!!
 
 Copy ytblock.sh from /fahrweid to /var/log/ then create a folder (ytblock) in /var/www/html/
 
