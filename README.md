@@ -14,7 +14,7 @@ Change to directory
 
 Make the scripts executable
 
-`# chmod a+x update-ubuntu.sh update-raspi.sh install-pihole-all-version.sh`
+`# chmod a+x *.sh`
 
 If you are using Raspberry Pi or Ubuntu 20.x start first with update-raspi.sh or update-ubuntu.sh
 
@@ -46,17 +46,15 @@ Change to the folder /fahrweid (if your not there)
 
 `# sudo cp ytblock.sh /var/log/`
 
-Make the scripts executable
-
-`# chmod a+x /var/log/ytblock.sh`
-
 Run the script once
 
 `# sudo /var/log/ytblock.sh`
 
-Note: This script creates a yttemp.txt file under /var/www/html/ytblock/ and they are searching in the pihole.log file for "r*sn-.*" entries these are generated from youtube for ads.
+Note: This script creates two files yttemp.txt and ytads.txt under /var/www/html/ytblock/ And they are searching in the pihole.log file for "r*sn-.*" entries these are generated from youtube for ads. If the script are running without any issues you will have some entries in this file "ytads.txt".
 
-now add this link under Group Management > Adlists. http://your-IP-address/ytblock/ytads.txt
+To verify this please open the link http://your-IP-address-pihole/ytblock/ytads.txt
+
+Now add this link under Group Management > Adlists. http://your-IP-address-pihole/ytblock/ytads.txt in you pihole (over WebGui)
 
 The last Step is now to add a cron job
 
