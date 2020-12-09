@@ -54,7 +54,7 @@ Run the script once
 
 `# sudo /var/log/ytblock.sh`
 
-Note: This script creates a yttemp.txt in /var/www/html/ytblock/ and searching in the pihole.log file for "r*sn-.*" these are from youtube generated domains for ads.
+Note: This script creates a yttemp.txt file under /var/www/html/ytblock/ and they are searching in the pihole.log file for "r*sn-.*" entries these are generated from youtube for ads.
 
 now add this link under Group Management > Adlists. http://your-IP-address/ytblock/ytads.txt
 
