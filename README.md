@@ -60,4 +60,4 @@ The last Step is now to add a cron job
 
 `# sudo crontab -e`
 
-`# */60 * * * * /var/log/ytblock.sh`
+`# */60 * * * * /var/log/ytblock.sh` the script are running every 60min
