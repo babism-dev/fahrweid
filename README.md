@@ -50,7 +50,7 @@ Run the script once
 
 `# sudo /var/log/ytblock.sh`
 
-Note: This script creates two files yttemp.txt and ytads.txt under /var/www/html/ytblock/ And they are searching in the pihole.log file for "r*sn-.*" entries these are generated from youtube for ads. If the script are running without any issues you will have some entries in this file "ytads.txt".
+Note: This script creates two files yttemp.txt and ytads.txt under /var/www/html/ytblock/ And they are searching in the pihole.log file for r*sn-.* entries these are generated from youtube for ads. If the script are running without any issues you will have some entries in this file "ytads.txt".
 
 To verify this please open the link http://your-IP-address-pihole/ytblock/ytads.txt
 
