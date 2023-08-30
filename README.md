@@ -36,8 +36,6 @@ Read more about Pi-hole: "https://github.com/pi-hole/pi-hole/#one-step-automated
 
 ### Install YT-ads block
 
-Still testing update 08.12.2020!!
-
 Copy ytblock.sh from /fahrweid to /var/log/ then create a folder (ytblock) in /var/www/html/
 
 `# sudo mkdir /var/www/html/ytblock`
@@ -50,9 +48,11 @@ Run the script once
 
 `# sudo /var/log/ytblock.sh`
 
-Note: This script creates two files "yttemp.txt" and "ytads.txt" under /var/www/html/ytblock/ And they are searching in the "pihole.log" file for `r*sn-.*` entries these are generated from youtube for ads. If the script are running without any issues you will have some entries in this file "ytads.txt".
+Note: This script creates two files "yttemp.txt" and "ytads.txt" under /var/www/html/ytblock/ And they are searching in the "pihole.log" file for `r*sn-.*` entries these are generated from youtube ads. If the script are running without any issues, you will have some entries in this file "ytads.txt".
 
-To verify this please open the link http://your-IP-address-pihole/ytblock/ytads.txt
+Please mark that sometimes some youtube movies are not running anymore!! I recommend for not using youtube-ads blocker.
+
+To verify this, please open the link http://your-IP-address-pihole/ytblock/ytads.txt
 
 Now add this link under Group Management > Adlists. http://your-IP-address-pihole/ytblock/ytads.txt in you pihole (over WebGui)
 
